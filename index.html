@@ -3,12 +3,12 @@
 <body>
 <p id="lol">rofl</p>
 <script>
-    function changeMe(teksti) {
-        document.getElementById("lol").innerHTML="<i>teksti</i>";
+    function changeMe(the_text) {
+        document.getElementById("lol").innerHTML=the_text;
     }
     document.getElementById("lol").innerHTML="<i>lollolo</i>";
 </script>
-<input type="button" value="hej" onClick="changeMe(document.teksti.value)" />
-<input name="teksti" type="text" />
+<input type="button" value="hej" onClick="changeMe(document.some_text.value)" />
+<input name="some_text" type="text" />
 </body>
 </html>
