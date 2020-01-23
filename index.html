@@ -3,8 +3,11 @@
 <body>
 <p id="lol">rofl</p>
 <script>
+    function changeMe() {
+        document.getElementById("lol").innerHTML="<i>ROFL</i>";
+    }
     document.getElementById("lol").innerHTML="<i>lollolo</i>";
 </script>
-<input type="button" value="hej" />
+<input type="button" value="hej" onClick="changeMe()"/>
 </body>
 </html>
